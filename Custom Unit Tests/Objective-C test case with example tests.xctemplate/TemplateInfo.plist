@@ -12,34 +12,20 @@
 	<key>DefaultCompletionName</key>
 	<string>Test</string>
 	<key>Description</key>
-	<string>An Objective-C class without header, containing an OCUnit test case that includes the &lt;SenTestingKit/SenTestingKit.h&gt; and &lt;OCMock/OCMock.h&gt; headers and several example test case methods.</string>
+	<string>An Objective-C OCUnit test case class file that includes the &lt;SenTestingKit/SenTestingKit.h&gt; and &lt;OCMock/OCMock.h&gt; headers and several example test case methods. No header file is created (or needed). </string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.m</string>
+	<string>___FILEBASENAME___Tests.m</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
 			<string>The name of the class to be tested</string>
 			<key>Identifier</key>
-			<string>testClassName</string>
-			<key>Name</key>
-			<string>Class Being Tested</string>
-			<key>NotPersisted</key>
-			<string>YES</string>
-			<key>Required</key>
-			<string>YES</string>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-		<dict>
-			<key>Description</key>
-			<string>The name of the class to create</string>
-			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>Class</string>
+			<string>Class to be tested</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>

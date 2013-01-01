@@ -12,20 +12,20 @@
 	<key>DefaultCompletionName</key>
 	<string>Test</string>
 	<key>Description</key>
-	<string>An Objective-C OCUnit test case class file that includes the &lt;SenTestingKit/SenTestingKit.h&gt; and &lt;OCMock/OCMock.h&gt; headers. No header file is needed nor created.</string>
+	<string>An NSObject based Objective-C class with a unit test case file that includes the &lt;SenTestingKit/SenTestingKit.h&gt; and &lt;OCMock/OCMock.h&gt; headers.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___Tests.m</string>
+	<string>___FILEBASENAME___.m</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the class to be tested. The file created will be this name with &quot;Test&quot; appended.</string>
+			<string>The name of the class to create</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>Class to be tested</string>
+			<string>Class</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -39,6 +39,6 @@
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
-	<string>A custom Objective-C class containing an OCUnit test case with OCMock for iOS.</string>
+	<string>An NSObject based Objective-C class with an OCUnit test case file with OCMock for iOS</string>
 </dict>
 </plist>

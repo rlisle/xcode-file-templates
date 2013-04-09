@@ -1,6 +1,4 @@
+# Xcode Templates ignored files
+.DS_Store
+MMTemplates/
 
-Custom Unit Tests/Objective-C test case class.xctemplate/.DS_Store
-
-Custom Unit Tests/Objective-C test case examples.xctemplate/.DS_Store
-
-Custom Unit Tests/Objective-C test case with example tests.xctemplate/.DS_Store

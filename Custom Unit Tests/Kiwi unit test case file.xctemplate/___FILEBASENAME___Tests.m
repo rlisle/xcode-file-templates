@@ -19,7 +19,7 @@ context(@"___FILEBASENAMEASIDENTIFIER___", ^{
     __block ___FILEBASENAMEASIDENTIFIER___ *testObj;
 
     beforeEach( ^{
-        testobj = [[___FILEBASENAMEASIDENTIFIER___ alloc] init];
+        testObj = [[___FILEBASENAMEASIDENTIFIER___ alloc] init];
     });
 
     describe(@"when something happens", ^{

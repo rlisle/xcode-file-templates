@@ -15,7 +15,7 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___Presenter
 
-- (id)initWithView:(id<___FILEBASENAMEASIDENTIFIER___View>)view countInteractor:(___FILEBASENAMEASIDENTIFIER___Interactor*)interactor
+- (id)initWithView:(id<___FILEBASENAMEASIDENTIFIER___View>)view interactor:(___FILEBASENAMEASIDENTIFIER___Interactor*)interactor
 {
 	if ((self = [super init]))
 	{

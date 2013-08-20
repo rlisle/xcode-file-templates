@@ -12,6 +12,6 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___Presenter : NSObject <___FILEBASENAMEASIDENTIFIER___InteractorDelegate>
 
-- (id)initWithView:(id<___FILEBASENAMEASIDENTIFIER___View>)view ___FILEBASENAMEASIDENTIFIER___Interactor:(___FILEBASENAMEASIDENTIFIER___Interactor*)interactor;
+- (id)initWithView:(id<___FILEBASENAMEASIDENTIFIER___View>)view interactor:(___FILEBASENAMEASIDENTIFIER___Interactor*)interactor;
                     
 @end

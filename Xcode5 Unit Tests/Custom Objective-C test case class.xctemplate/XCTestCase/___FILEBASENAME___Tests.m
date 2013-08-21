@@ -42,7 +42,7 @@
 
     int expectedValue = 64;
     int returnValue = [self.my___FILEBASENAMEASIDENTIFIER___ methodA];
-    STAssertTrue(returnValue == expectedValue,@"methodA returned %d but %d was expected.",returnValue,expectedValue);
+    XCTAssertTrue(returnValue == expectedValue,@"methodA returned %d but %d was expected.",returnValue,expectedValue);
     
 }
 
